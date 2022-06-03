@@ -1,0 +1,482 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>민수의 첫 웹페이지</title>
+	<meta charset="utf-8">
+	<meta content="Auk Kim | Personal Website" name="title">
+	<meta content="KNU,kangwon,research,phd,hci,kim auk,auk kim" name="keywords">
+	<meta content="Auk Kim" name="author">
+	<meta content="A personal website for Auk Kim" name="description">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=9" />-->
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+	<script
+		crossorigin="anonymous"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<script src="https://github.com/1008kms/-.github.io/blob/main/custom.js" type="text/javascript"></script>
+	<script src="https://github.com/1008kms/-.github.io/blob/main/publication.js" type="text/javascript"></script>
+	<link href="https://github.com/1008kms/-.github.io/blob/main/bootstrap-simplex.css" rel="stylesheet"/>
+	<!--http://bootswatch.com/simplex/-->
+	<link href="https://github.com/1008kms/-.github.io/blob/main/style.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://github.com/1008kms/-.github.io/blob/main/academicons.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="navbar navbar-expand-lg fixed-top navbar-light">
+		<div class="container">
+			<a class="navbar-brand" href="">MS_WEBPAGE</a>
+			<button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+				class="navbar-toggler" data-target="#navbarResponsive"
+				data-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse" id="navbarResponsive">
+				<ul class="nav navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link active" href="#home"
+						target-menu="menu_home">HOME</a></li>
+					<li class="nav-item"><a class="nav-link" href="#matzip"
+						target-menu="menu_matzip">MY RESTAURANT</a></li>
+					<li class="nav-item"><a class="nav-link" href="#playlist"
+						target-menu="menu_playlist">MY PLAYLIST</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+
+		<div class="bs-docs-section">
+			<div class="menu_template" id="menu_home">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="https://github.com/1008kms/-.github.io/blob/main/%EB%82%B4%20%EC%82%AC%EC%A7%84.jpg" width="100%">
+
+					</div>
+					<div class="col-md-8">
+
+						<h5>자기소개</h5>
+						<p>
+							안녕하세요! 저의 이름은 김민수입니다. <a href="https://www.kangwon.ac.kr/english/index.do" target="_blank">저는 현재 강원대학교 춘천캠퍼스에 재학중이고</a>  <a href="https://cse.kangwon.ac.kr/" target="_blank">컴퓨터정보통신공학과입니다!</a>
+							저는 2000년생 10월 8일 생으로 고양시 일산서구에서 태어났으며, 황룡초등학교, 호곡중학교, 일산동고등학교를 졸업하고 강원대학교 춘천캠퍼스에 입학하였습니다!
+						</p>
+
+						<br>
+						<div class="ui labels" style="margin-top:15px">
+							<a href="mailto:nkl51@naver.com" class="fa fa-google"></a>
+							<a href="https://www.facebook.com/profile.php?id=100007744364922" class="fa fa-facebook"></a>
+							<a href="https://www.instagram.com/su_._._._m" class="fa fa-instagram"></a>
+							</a>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="bs-docs-section">
+			<div class="menu_template" id="menu_matzip">
+				<br>
+				<h5>전체지역</h5>
+
+				<nav aria-label="...">
+					<ul class="pagination" id="paper-types">
+						<li class="page-item active"><a class="page-link" href="#">All</a></li>
+					</ul>
+				</nav>
+				<br><br>
+
+
+				<h5>춘천</h5>
+				<table class="table table-hover">
+					<tbody>
+					<tr>
+						<td class="matzip" paper-type="chuncheon">
+							하스피럴버거 - <strong>대표메뉴 : 아메리칸 치즈버거 , 베이컨 치즈버거, ...</strong><br>
+							<a href="https://map.naver.com/v5/entry/place/1328451854?c=14218811.9425346,4561448.9025846,13,0,0,0,dh&placePath=%2Fhome&entry=plt" target="_blank">
+								<span class="text-success">강원도 춘천시 후만로 5  Hospital Burger </span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.instagram.com/hostpitalburger" role="button" target="_blank">Link</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td class="matzip" paper-type="chuncheon">
+							브릭스피자 - <strong>대표메뉴 : 13in pizza half & half ( 반 / 반 )
+								, 18in pizza half & half (반 / 반)  ...</strong><br>
+							<a href="https://map.naver.com/v5/entry/place/552019785?c=14220664.5660281,4561416.4817029,13,0,0,0,dh&placePath=%2Fhome&entry=plt" target="_blank">
+								<span class="text-success">강원도 춘천시 서부대성로 255, 2층</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="http://www.instagram.com/brickspizzaclub" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td class="matzip" paper-type="chuncheon">
+							구스범스 - <strong>대표메뉴 : 반반피자, 세계맥주 ...</strong><br>
+							<a href="https://map.naver.com/v5/search/%EA%B5%AC%EC%8A%A4%EB%B2%94%EC%8A%A4%20%EC%B6%98%EC%B2%9C/place/1140773629?c=14217196.2959730,4560374.7097736,15,0,0,0,dh&placePath=%3Fentry%253Dpll" target="_blank">
+								<span class="text-success">강원도 춘천시 우묵들길8</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.instagram.com/goosebumps_pub" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td class="matzip" paper-type="chuncheon">
+							보안냉동삼겹살 - <strong>대표메뉴 : 냉동삼겹살, 보안해물라면 ...</strong><br>
+							<a href="https://map.naver.com/v5/search/%EA%B0%95%EC%9B%90%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EB%B3%B4%EC%95%88%EA%B8%B8%2050-1/place/1104952301?c=14221190.1164761,4562371.7626104,19,0,0,0,dh&isCorrectAnswer=true" target="_blank">
+								<span class="text-success">강원 춘천시 보안길 50-1</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://blog.naver.com/seohyun3763/222732505582" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+
+				<br>
+
+
+
+				<h5>고양시 일산</h5>
+				<table class="table table-hover">
+					<tbody>
+					<tr>
+						<td class="matzip" paper-type="ilsan">
+							일산닭칼국수본점 - <strong>대표메뉴 : 바지락칼국수, 능아닭칼국수, 닭칼국수 ...</strong><br>
+							<a href="https://map.naver.com/v5/search/%EC%9D%BC%EC%82%B0%EB%A7%9B%EC%A7%91/place/11727528?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&c=14113300.9803194,4532980.0131522,15,0,0,0,dh" target="_blank">
+								<span class="text-success">경기 고양시 일산동구 경의로 467 풍산역 1번 출구에서342m</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://blog.naver.com/ranunculusso/222698514313" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td class="matzip" paper-type="ilsan">
+							민속마을콩두부 - <strong>대표메뉴 : 민속마을정식, 초생달정식, 햇님정식 ...</strong><br>
+							<a href="https://map.naver.com/v5/entry/place/18374833?c=14114534.656312253,4533667.806346251,13,0,0,0,dh&placePath=%2Fhome" target="_blank">
+								<span class="text-success">경기 고양시 일산동구 애니골길 100 풍산역 1번 출구에서821m</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://blog.naver.com/zzillzzill2/222695919296" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td class="matzip" paper-type="ilsan">
+							길가 포장마차 - <strong>대표메뉴 : 산꼼장어볶음, 고갈비, 산낙지 ...</strong><br>
+							<a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%9D%BC%EC%82%B0+%EA%B8%B8%EA%B0%80%ED%8F%AC%EC%9E%A5%EB%A7%88%EC%B0%A8&oquery=%EC%9D%BC%EC%82%B0+%ED%8F%AC%EC%9E%A5%EB%A7%88%EC%B0%A8&tqi=hpFNYlp0JXVssTGD%2FP4ssssss2h-279372" target="_blank">
+								<span class="text-success">경기 고양시 일산서구 경의로 928 탄현역 1번 출구에서799m</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://blog.naver.com/zecamp/222689597485" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td class="matzip" paper-type="ilsan">
+							청초수물회 일산점 - <strong>대표메뉴 : 해전물회, 성게알비빔밥, 해전막회 ...</strong><br>
+							<a href="https://map.naver.com/v5/entry/place/418987003?c=14114430.445093032,4533472.420736019,13,0,0,0,dh&placePath=%2Fhome&entry=plt" target="_blank">
+								<span class="text-success">경기 고양시 일산동구 애니골길 74 풍산역 1번 출구에서649m</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://blog.naver.com/zzillzzill2/222434699188" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+
+				<br>
+
+
+
+				<h5>부산</h5>
+				<table class="table table-hover">
+					<tbody>
+					<tr>
+						<td class="matzip" paper-type="busan">
+							한우리가 - <strong>대표메뉴 : 명품한우 갈비살, 명품한우 꽃등심, 명품한우 제비추리 ...</strong><br>
+							<a href="https://map.naver.com/v5/entry/place/1474704630?c=14378623.973497275,4186110.647604799,13,0,0,0,dh&placePath=%2Fhome&entry=plt" target="_blank">
+								<span class="text-success">부산 해운대구 중동2로10번길 13 중동역 7번 출구에서602m</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://blog.naver.com/woni0706v/222401636346" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td class="matzip" paper-type="busan">
+							동경밥상 - <strong>대표메뉴 : 오나쥬(민물장어덮밥+동경식), 아나쥬(바다상어덮밥+동경식), 키지동 ...</strong><br>
+							<a href="https://map.naver.com/v5/entry/place/1520243018?c=14372884.117912997,4184069.5745926686,13,0,0,0,dh&placePath=%2Fhome&entry=plt" target="_blank">
+								<span class="text-success">부산 수영구 남천바다로 34-6 금련산역 3번 출구에서357m</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="http://www.instagram.com/begoing22" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td class="matzip" paper-type="busan">
+							나가하마만게츠 - <strong>대표메뉴 : 나가하마라멘, 아끼라멘, 오분야끼교자 ...</strong><br>
+							<a href="https://map.naver.com/v5/entry/place/1804782359?c=14377748.000425007,4186539.9815800097,13,0,0,0,dh&placePath=%2Fhome&entry=plt" target="_blank">
+								<span class="text-success">부산 해운대구 우동1로 57 해운대역 4번 출구에서408m</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.instagram.com/mangetsu_kor" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td class="matzip" paper-type="busan">
+							개미집 서면점 - <strong>대표메뉴 : 낙지볶음+밥, 낙새볶음+밥, 낙곱볶음+밥 ...</strong><br>
+							<a href="https://map.naver.com/v5/entry/place/12068144?c=14366706.275792021,4184834.1551263314,13,0,0,0,dh&placePath=%2Fhome&entry=plt" target="_blank">
+								<span class="text-success">부산 부산진구 신천대로62번길 73 서면역 1번 출구에서337m</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://blog.naver.com/qomino11/222752018626" role="button" target="_blank">LINK</a>
+									</span>
+							<br>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+				<br>
+
+				<br>
+			</div>
+		</div>
+		
+
+
+		<div class="bs-docs-section">
+			<div class="menu_template" id="menu_playlist">
+				<h5>발라드</h5>
+				<table class="table table-hover">
+					<tbody>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16384780&qvt=0&query=%EC%B6%95%EA%B0%80" target="_blank">
+								<span class="text-success">2018.06.08 - 작곡(오성훈,blackedition) 작사(민연재,최성일,이단옆차기)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=p78NTG09yT0" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>축가 - <strong>전우성(노을)</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%82%AC%EB%9E%91%EC%9D%B4+%EC%8B%9D%EC%97%88%EB%8B%A4%EA%B3%A0+%EB%A7%90%ED%95%B4%EB%8F%84%EB%8F%BC&oquery=%EC%B6%95%EA%B0%80+%EA%B3%A1%EC%A0%95%EB%B3%B4&tqi=hpF7iwp0YiRss7Mb5Q0ssssssDN-250233" target="_blank">
+								<span class="text-success">2018.06.08 - 작곡 (한상원, 이진성) 작사 (한상원, 이진성)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=tlHTOlnPcbs" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>사랑이 식었다고 말해도 돼 - <strong>먼데이키즈(Monday Kiz)</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%A3%BC%ED%98%B8+%EB%82%B4%EA%B0%80+%EC%95%84%EB%8B%88%EB%9D%BC%EB%8F%84+%EC%9E%91%EA%B3%A1%EC%9E%91%EC%82%AC&oquery=%EC%A3%BC%ED%98%B8+%EB%82%B4%EA%B0%80+%EC%95%84%EB%8B%88%EB%9D%BC%EB%8F%84&tqi=hpFK5sp0JXVssTJXeIRssssssgs-480311" target="_blank">
+								<span class="text-success">2022.03.25 - 작사 (주호)  작곡 (주호)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=JhQUSnaR4MM" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>내가 아니라도 - <strong>주호</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EB%84%88%EC%9D%98+%EB%AA%A8%EC%8A%B5&oquery=%EB%84%88%EC%9D%98%EB%AA%A8%EC%8A%B5&tqi=hpFKXdp0Jy0ssCVrTZ8ssssssYo-023428" target="_blank">
+								<span class="text-success">2021.10.04 - 작사 (문성욱) 작곡 (문성욱,방민규)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=wQBVMU07DaI" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>너의 모습 - <strong>정동하</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16247836&qvt=0&query=%ED%97%A4%EC%96%B4%EC%A7%80%EC%9E%90%20(Prod.%20%EC%A0%95%ED%82%A4)" target="_blank">
+								<span class="text-success">2019,09.04 - 작사 (정키(JungKey)  작곡(정키(JungKey))</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=U_dpIqCDcZk" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>헤어지자 (Prod.정키) - <strong>휘인(Whee In)</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%9E%8A%EC%9D%84%EC%88%98%EC%9E%88%EC%9D%84%EA%B9%8C&oquery=%EC%9E%8A%EC%9D%84%EC%88%98%EC%9E%88%EC%9D%84%EA%B9%8C+%EC%9E%91%EC%82%AC%EC%9E%91%EA%B3%A1&tqi=hpFnidp0Jy0ssCWZU1VssssssoN-507507" target="_blank">
+								<span class="text-success">2022.02.10 - 작사 (bigguyrobin)  작곡(bigguyrobin)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=bWnzmrudpPE" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>잊을 수 있을까 - <strong>노을</strong>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+
+				<br>
+
+
+				<h5>힙합</h5>
+				<table class="table table-hover">
+					<tbody>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%B0%BD%EB%AA%A8+%EB%A9%94%ED%85%8C%EC%98%A4&oquery=%ED%9E%99%ED%95%A9+%EC%B6%94%EC%B2%9C&tqi=hpFdIsp0JXVssTjgugCssssstNR-116294" target="_blank">
+								<span class="text-success">2019.11.29 - 작사(창모(CHANGMO)) 작곡(창모(CHANGMO)) </span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=lOrU0MH0bMk" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>METEOR- <strong>창모(CHANGMO)</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16169401&qvt=0&query=%EC%95%84%EB%A6%84%EB%8B%A4%EC%9B%8C" target="_blank">
+								<span class="text-success">2016.07.21 - 작사(창모(CHANGMO) 작곡(창모(CHANGMO)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=ywwU5ka1fBs" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>아름다워 - <strong>창모(CHANGMO)</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16952288&qvt=0&query=%ED%83%80%ED%98%91%20%EA%B3%A1%EC%A0%95%EB%B3%B4" target="_blank">
+								<span class="text-success">2020.11.18 - 작사(이영지) 작곡(이영지,AVERZI)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=nUSeyCFNssY" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>타협 - <strong>이영지</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16298395&qvt=0&query=%EC%95%94%EC%8B%A4%20%EA%B3%A1%EC%A0%95%EB%B3%B4" target="_blank">
+								<span class="text-success">2019.11.02 - 작사(이영지) 작곡(이영지,I filled)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=dpRGrG8fdnY" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>암실 - <strong>이영지</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16225673&qvt=0&query=My%20Type%20(Prod.%20by%20%EB%B2%84%EB%B2%8C%EC%A7%84%ED%8A%B8)%20%EA%B3%A1%EC%A0%95%EB%B3%B4" target="_blank">
+								<span class="text-success">2015.02.13- 작사(제시(Jessi), 치타(Cheetah), 버벌진트(Verbal Jint)) 작곡(버벌진트(Verbal Jint), 리시)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=l7Oc2-bOE2c" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>My type - <strong>제시,강남,치타</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16272863&qvt=0&query=City" target="_blank">
+								<span class="text-success">2016.03.14- 작사(그루비룸(GroovyRoom)) 작곡(그루비룸(GroovyRoom))</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=nEjkcP949Dg" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em>City - <strong>Owen Ovadoz</strong>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+
+				<br>
+
+
+				<h5>팝송</h5>
+				<table class="table table-hover">
+					<tbody>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16198149&qvt=0&query=Day%201%20%E2%97%91" target="_blank">
+								<span class="text-success">2018.08.24 - 앨범 Love Me / Love Me Not</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=VK9nA2IppGE" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em> Day 1 ◑ - <strong>Honne</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16244862&qvt=0&query=Call%20Me%20Maybe%20%EA%B3%A1%EC%A0%95%EB%B3%B4" target="_blank">
+								<span class="text-success">2012.01.01 - 앨범 Kiss</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=fWNaR-rxAic" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em> Call Me Maybe - <strong>Carly Rae Jepsen</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkhH&x_csa=%7B%22theme%22%3A%22music_top%22%2C%20%22pkid%22%3A%22632%22%7D&pkid=632&os=16184000&qvt=0&query=Baby%20(Feat.%20Ludacris)%20%EA%B3%A1%EC%A0%95%EB%B3%B4" target="_blank">
+								<span class="text-success">2010.01.01 - 앨범 My Worlds - The Collection (International Package)</span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=kffacxfA7G4" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em> Baby - <strong>Justin Bieber</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="publication">
+							<a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=When+We%27re+Gone&oquery=Mesto+%26+Justin+Mylo++When+We%27re+Gone&tqi=hpFiewp0YiRss7RUFYRssssssYo-260411" target="_blank">
+								<span class="text-success">2020.11.27 </span></a>
+								<span style="float:right;">
+										<a class="btn btn-outline-info btn-sm" href="https://www.youtube.com/watch?v=w8CWoy251Yo" role="button" target="_blank">YOUTUBE LINK</a>
+									</span>
+							<br>
+							<em> When We're Gone - <strong>Mesto, Justin Mylo</strong>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+
+				<br>
+
+
+				<br>
+			</div>
+		</div>
+	
+
+	</div>
+
+	<footer class="footer">
+		<p class="text-center .col-md-* text-muted">Copyright @ 2021.
+			김민수 (201912595 (at) kangwon.ac.kr) All rights reserved.</p>
+	</footer>
+</body>
+</html>
